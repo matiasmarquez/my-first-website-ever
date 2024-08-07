@@ -1,0 +1,266 @@
+body {
+	overflow-x:hidden;
+	margin:0 auto;
+	background-color:#f9f9f9;
+}
+
+/*----------------------------------
+	MENU PRINCIPAL
+------------------------------------*/
+.color{
+	background-color:#F4F4F4;
+	padding-bottom:5px;
+}
+
+.Menu {
+	max-width:960px;
+	margin:0 auto;
+}
+
+.Menu img {
+	margin-top:3px;
+}
+
+.Menu ul {
+	list-style:none;
+	float:right;
+	margin-top:45px;
+}
+
+.Menu ul li {
+	display:inline-block;
+	padding:0px 7px 0px 7px;
+	font-family:novaz;
+	font-size:12pt;
+}
+
+.Menu ul li a {
+	text-decoration:none;
+	color:#8F8F8F;
+
+}
+
+.Menu ul li a:hover{
+	color:#2E2E2E;
+	text-shadow:none;
+}
+
+.Menu ul .active a:link, .Menu ul .active a:visited{
+	color:#2E2E2E;
+}
+
+/*----------------------------------
+	IMG PRINCIPAL
+------------------------------------*/
+
+.imgPrincipal{
+	background-image:url(imagenes/photop6.jpg);
+	height:430px;
+	background-repeat:no-repeat;
+	background-position:50% 75%;
+	background-size:cover;
+	background-attachment:fixed; 
+}
+
+.imgPrincipal .overlay {
+	height:430px;
+	background-color: rgba(0,0,0,0.30);
+	text-align:center;
+}
+
+.imgPrincipal .overlay h2 {
+	display:inline-block;
+	font-size:64pt;
+	color:#fff;
+	font-family:novabold;
+}
+
+.imgPrincipal .overlay p {
+	font-size:25pt;
+	color:#fff;
+	font-family:kepler;
+	margin-top:-70;
+}
+
+/*----------------------------------
+	BREVE HISTORIA - TITULO
+------------------------------------*/
+
+.divisor h5 {
+	margin-top:30px;
+    overflow: hidden;
+    text-align: center;
+    font-size:16pt;
+    color:#555555;
+    font-family:nova;
+}
+
+.divisor h5:before,
+.divisor h5:after {
+    background-color:#CFCFCF;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width:460px;
+}
+
+.divisor h5:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.divisor h5:after {
+    left: 0.5em;
+    margin-right:-50%;
+}
+
+/*----------------------------------
+	BREVE HISTORIA - CONTENIDO
+------------------------------------*/
+
+table { 
+	max-width:960px;
+	font-family:nova;
+	font-size:12pt;
+	color:#6F6F6E;
+	font-weight:bold;
+}
+
+table h3 {
+	color:#576b69;
+	font-weight:bold;
+	font-family:novabold;
+}
+
+/*----------------------------------
+	IMAGENES - TITULO
+------------------------------------*/	
+
+.divisor1 h5 {
+	margin-top:30px;
+    overflow: hidden;
+    text-align: center;
+    font-size:16pt;
+    color:#555555;
+    font-family:nova;
+}
+
+.divisor1 h5:before,
+.divisor1 h5:after {
+    background-color: #CFCFCF;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width:460px;
+}
+
+.divisor1 h5:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+
+.divisor1 h5:after {
+    left: 0.5em;
+    margin-right:-50%;
+}
+
+/*----------------------------------
+	IMAGENES - CONTENIDO
+------------------------------------*/
+
+.ulImg ul {
+	list-style:none;
+	max-width:960px;
+	margin:20px auto;
+}
+
+.ulImg ul li {
+	display:inline;
+	padding-right:8px;
+}
+
+.ulImg ul li img{
+	border:#576b69 1px solid;
+}
+
+/*----------------------------------
+	FOOTER
+------------------------------------*/
+
+.footer {
+	background-color:#1B1B1B;
+	margin-top:20px;
+}
+
+footer {
+	max-width:940px;
+	margin:0 auto;
+	padding-top:20px;
+}
+
+footer a{
+	color:#8F8F8F;
+	font-size:18pt;
+	padding:0 1px;
+}
+
+footer .social a:hover{
+	color:#2E2E2E;
+	font-size:18pt;
+}
+
+footer img {
+	margin-top:-40px;
+	margin-bottom:20px;
+}
+
+footer span {
+	float:right;
+	margin-top:-70px;
+	margin-right:20px;
+}
+
+footer span a {
+	font-size:18pt;
+}
+
+footer .up a:hover{
+	font-size:18pt;
+	color:#7F7F7F;
+}
+
+footer hr {
+	border-color:gray;
+}
+
+footer .pFoot {
+	font-size:9pt;
+	font-family:effraStd;
+	margin-top:20px;
+	margin-bottom:4px;
+	color:#5B5B5A;
+}
+
+footer .name{
+	font-size:9pt;
+	font-family:effraStd;
+	text-decoration:none;
+	color:#9A9A99;
+	font-weight:bold;
+}
+
+footer .name:visited {
+	font-size:9pt;
+	font-family:effraStd;
+	text-decoration:none;
+}
+
+footer .name:hover {
+	color:#F0FFFF;
+}
+
+

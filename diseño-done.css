@@ -1,0 +1,41 @@
+body {
+	overflow-x:hidden;
+	margin:0 auto;
+}
+
+/*----------------------------------
+	BODY
+------------------------------------*/
+
+.title{
+	text-align:center;
+	margin:-4% auto;
+	font-size:16pt;
+	font-family:novac;
+	color:#414141;
+}
+
+img {
+	margin:3% auto;
+}
+
+.subTitle{
+	text-align:center;
+	margin:5% auto;
+	font-size:10pt;
+	font-family:novac;
+	color:#414141;
+}
+
+a{
+	text-decoration:none;
+}
+
+a:link, a:visited{
+	color:#2B65EC;
+}
+
+a:hover{
+	color:#3BB9FF;
+}
+

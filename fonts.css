@@ -1,0 +1,74 @@
+@font-face {
+	font-family:nova;
+	src:url(fonts/ScOsf-Thin.otf);
+}
+
+@font-face {
+	font-family:novax;
+	src:url(fonts/ScOsf-Extra-Condensed-Thin.otf);
+}
+
+@font-face {
+	font-family:novaz;
+	src:url(fonts/Proxima-Nova-Alt-Thin.otf);
+}
+
+@font-face {
+	font-family:novac;
+	src:url(fonts/Proxima-Nova-Thin.otf);
+}
+
+@font-face {
+	font-family:novav;
+	src:url(fonts/ScOsf-Condensed-Thin.otf);
+}
+
+@font-face {
+	font-family:kepler;
+	src:url(fonts/KeplerStd.ttf);
+}
+
+@font-face {
+	font-family:novabold;
+	src:url(fonts/alt-bold.otf);
+}
+
+@font-face {
+	font-family:fontawesome;
+	src:url(font/fontawesome-webfont.ttf);
+}
+
+@font-face {
+	font-family:effraStd;
+	src:url(fonts/Effra_Std_Rg.ttf);
+} 
+
+@font-face {
+	font-family:effraIt;
+	src:url(fonts/Effra_Std_It.ttf);
+} 
+
+@font-face {
+	font-family:fontawesome;
+	src:url(font/FontAwesome.otf);
+}
+
+@font-face {
+	font-family:fontawesome;
+	src:url(font/fontawesome-webfont.eot);
+}
+
+@font-face {
+	font-family:fontawesome;
+	src:url(font/fontawesome-webfont.svg);
+}
+
+@font-face {
+	font-family:fontawesome;
+	src:url(font/fontawesome-webfont.woff);
+}
+
+@font-face {
+	font-family:fontawesome;
+	src:url(font/fontawesome-webfont.woff2);
+}

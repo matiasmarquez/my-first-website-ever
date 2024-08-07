@@ -1,0 +1,108 @@
+<html>
+	<head>
+		<script type="text/javascript" language="JavaScript1.2">
+		
+		function comprobarScreen () {
+	
+			if (window.screen.availWidth == 1280) {window.parent.document.body.style.zoom="96%";}
+			if (window.screen.availWidth == 1366) {window.parent.document.body.style.zoom="80%";}
+			if (window.screen.availWidth == 1152) {window.parent.document.body.style.zoom="108%";} 
+			if (window.screen.availWidth == 1024) {window.parent.document.body.style.zoom="60%";}
+			if (window.screen.availWidth == 800) {window.parent.document.body.style.zoom="75%";}
+			if (window.screen.availWidth == 640) {window.parent.document.body.style.zoom="60%";}
+		}
+		</script>
+		<title>Bancovia Bar</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="diseño-index.css"/>
+		<link rel="stylesheet" type="text/css" href="fonts.css"/>
+		<link rel="stylesheet" type="text/css" href="font-awesome.min.css">	
+	</head>
+
+	<body onload="comprobarScreen()">
+		<div class="color">
+		<div class="Menu">
+			<img src="imagenes/Logob.png" width="90" height="90">
+			<ul>
+				<li class="active"><a href="index.html">INICIO</a></li>
+				<li><a href="historia.html">HISTORIA</a></li>
+				<li><a href="galeria.html">GALERIA</a></li>
+				<li><a href="carta.html">CARTA</a></li>
+				<li><a href="pedido.html">PEDIDO ONLINE</a></li>
+				<li><a href="contacto.html">CONTACTO</a></li>
+			</ul>
+		</div>
+		</div>
+
+		<div class="imgPrincipal">
+			<div class="overlay">
+				<center><h2>BANCOVIA BAR</h2></center>
+				<center><p>Chill & Relax</p></center>
+			</div>
+		</div>
+
+		<div class="divisor">
+			<h5>breve historia</h5>
+		</div>
+
+		<table align="center" cellpadding="10px">
+			<tr>
+				<td cellpadding="10">
+					<p>El café, y la experiencia que se debe ir con ella.
+					Nuestro programa de café es simple, pero preciso.
+					Todas las bebidas están recién hechas a la orden -
+					después de que usted lo pide, nunca antes - de un menú rotativo de nuestros cafés favoritos de
+					tostadores de clase mundial en todo América del sur.</p>
+					<h3>ES MUY SIMPLE:</h3>
+					<p>Pedimos lo que nos gusta, y no pedir lo que no
+					hacemos. Nos gusta ser coherente, por lo que
+					medimos y pesamos todas las variables que hay,
+					hasta que no lo es. Y nos gusta los detalles, de los
+					cuales el café es sólo uno de muchos en una vida
+					bien afinado. Pero es como muy importante, ¿no?</p>
+				</td>
+				<td>
+					<img src="imagenes/about.png"/>
+				</td>
+			</tr>
+		</table>
+
+		<div class="divisor1">
+			<h5>imagenes</h5>
+		</div>
+
+		<div class="ulImg">
+			<ul>
+				<li><img src="imagenes/bar1.jpg" width="220" height="220"/></li>
+				<li><img src="imagenes/bar2.jpg" width="220" height="220"/></li>
+				<li><img src="imagenes/bar3.jpg" width="220" height="220"/></li>
+				<li><img src="imagenes/bar4.jpg" width="220" height="220"/></li>
+			</ul>
+		</div>
+
+		<div class="footer">
+			<footer>
+				<div class="social">
+				<a href="#"><i class="fa fa-facebook-square"></i></a>
+				<a href="#"><i class="fa fa-twitter-square"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-google-plus-square"></i></a>
+				</div>
+
+				<map name="miMapa">
+					<area alt="Ver sitio de mapa" shape="rect" coords="6,9,101,100" href="map.html">
+				</map>
+
+				<center><img src="imagenes/logoms.png" width="70px" height="70px" usemap="#miMapa"/></center>
+
+				<span class="up"><a href="#"><i class="fa fa-caret-square-o-up"></i></a></span>
+
+				<hr size="1">
+
+				<center><p class="pFoot">© 2015 <a href="cv.html" class="name">Matias Marquez</a> All Rights Reserved.</p></center>
+				
+				<br>
+			</footer>
+		</div>
+	</body>
+</html>
